@@ -1,0 +1,10 @@
+/.idea/
+/*.iml
+*.log
+config.yml
+config-dev.yml
+.DS_Store
+**/.DS_Store
+/resources/fonts/
+/build/*
+/certs/certificates.crt

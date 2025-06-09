@@ -1,0 +1,15 @@
+{
+  "name": "Save Sync",
+  "version": "0.1.0",
+  "type": "TOOL",
+  "description": "Send your save files to a versioned S3 Bucket",
+  "author": "K-Wall",
+  "repo_url": "https://github.com/UncleJunVIP/nextui-save-sync",
+  "release_filename": "SaveSync.pak.zip",
+  "changelog": {
+    "v0.1.0": "Initial release!."
+  },
+  "platforms": [
+    "tg5040"
+  ]
+}
