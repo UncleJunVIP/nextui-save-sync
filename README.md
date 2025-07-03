@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src=".github/resources/sync-logo.png" width="auto" alt="Save Sync wordmark">
+<img src=".github/resources/save-sync-logo.png" width="auto" alt="Save Sync wordmark">
 <h3 style="font-size: 25px;">
     Sync your save files to a versioned S3 Bucket
 </h3>
