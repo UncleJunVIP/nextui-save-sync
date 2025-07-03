@@ -1,6 +1,6 @@
 {
   "name": "SaveSync",
-  "version": "1.0.0",
+  "version": "v1.0.0",
   "type": "TOOL",
   "description": "Sync your save files to a versioned S3 Bucket.",
   "author": "K-Wall",
