@@ -1,12 +1,13 @@
 {
   "name": "SaveSync",
-  "version": "v1.0.0",
+  "version": "v1.0.1",
   "type": "TOOL",
   "description": "Sync your save files to a versioned S3 Bucket.",
   "author": "K-Wall",
   "repo_url": "https://github.com/UncleJunVIP/nextui-save-sync",
   "release_filename": "SaveSync.pak.zip",
   "changelog": {
+    "v1.0.1": "Small fix in UI library for artifacts that appeared when no bg.png is present.",
     "v1.0.0": "Initial release!"
   },
   "platforms": [

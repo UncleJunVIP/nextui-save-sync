@@ -4,7 +4,7 @@ go 1.24
 
 require (
 	github.com/UncleJunVIP/certifiable v1.0.0
-	github.com/UncleJunVIP/gabagool v0.0.48
+	github.com/UncleJunVIP/gabagool v0.0.49
 	github.com/UncleJunVIP/nextui-pak-shared-functions v1.8.0
 	github.com/aws/aws-sdk-go v1.55.7
 	go.uber.org/zap v1.27.0
