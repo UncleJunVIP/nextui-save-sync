@@ -7,10 +7,10 @@
 
 ## [Download this in Pak Store!](https://github.com/UncleJunVIP/nextui-pak-store)
 
-![GitHub License](https://img.shields.io/github/license/UncleJunVip/nextui-s3-save-sync?style=for-the-badge)
-![GitHub Release](https://img.shields.io/github/v/release/UncleJunVIP/nextui-s3-save-sync?sort=semver&style=for-the-badge)
-![GitHub Repo stars](https://img.shields.io/github/stars/UncleJunVip/nextui-s3-save-sync?style=for-the-badge)
-![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/UncleJunVIP/nextui-s3-save-sync/total?style=for-the-badge&label=Total%20Downloads)
+![GitHub License](https://img.shields.io/github/license/UncleJunVip/nextui-s3-save-sync?style=for-the-badge&color=007C77)
+![GitHub Release](https://img.shields.io/github/v/release/UncleJunVIP/nextui-s3-save-sync?sort=semver&style=for-the-badge&color=007C77)
+![GitHub Repo stars](https://img.shields.io/github/stars/UncleJunVip/nextui-s3-save-sync?style=for-the-badge&color=007C77)
+![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/UncleJunVIP/nextui-s3-save-sync/total?style=for-the-badge&label=Total%20Downloads&color=007C77)
 
 
 </div>
