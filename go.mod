@@ -4,7 +4,7 @@ go 1.24
 
 require (
 	github.com/UncleJunVIP/certifiable v1.0.0
-	github.com/UncleJunVIP/gabagool v0.0.53
+	github.com/UncleJunVIP/gabagool v0.0.54
 	github.com/UncleJunVIP/nextui-pak-shared-functions v1.8.0
 	github.com/aws/aws-sdk-go v1.55.7
 	go.uber.org/zap v1.27.0
@@ -21,6 +21,6 @@ require (
 	github.com/veandco/go-sdl2 v0.4.40 // indirect
 	go.uber.org/atomic v1.11.0 // indirect
 	go.uber.org/multierr v1.11.0 // indirect
-	golang.org/x/net v0.41.0 // indirect
+	golang.org/x/net v0.42.0 // indirect
 	qlova.tech v0.1.1 // indirect
 )
