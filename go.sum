@@ -4,8 +4,12 @@ github.com/UncleJunVIP/certifiable v1.0.0 h1:g8SMZrGW74qLvli9j0CYO5BvpVcGhqxfvAU
 github.com/UncleJunVIP/certifiable v1.0.0/go.mod h1:paPhCSE8DKzYvBcFcr5NVAYJmmvADq8e5fvkvs95np4=
 github.com/UncleJunVIP/gabagool v0.0.54 h1:vz0crLt6Cgz/IWd6Y+DDGzb7UkblF0OejLXCrWysMMI=
 github.com/UncleJunVIP/gabagool v0.0.54/go.mod h1:EPPgmkQllHgR2jY8DcmwhL9+d+Viw752HOug4IusHxI=
+github.com/UncleJunVIP/gabagool v0.0.61 h1:mfNBpOZ5PRKAEVnnZdwjvorxgmu4+8DfGJR0p/v6ThY=
+github.com/UncleJunVIP/gabagool v0.0.61/go.mod h1:m9myn3onXF9duenLShS+lDJ+EZDvimZQpUVea5W9TQ4=
 github.com/UncleJunVIP/nextui-pak-shared-functions v1.8.0 h1:ZrWObb/N3pvyPrqHHlYsp7Lbi8Wy2uCM4b0Rw5w0LpQ=
 github.com/UncleJunVIP/nextui-pak-shared-functions v1.8.0/go.mod h1:sXHrQmYySc2DVrGkhpoAoqDxb3lq3AS1HRbuHKCLnDE=
+github.com/UncleJunVIP/nextui-pak-shared-functions v1.10.0 h1:kftcHeurVrskZOsq7cfAwkOF/dzndUK9kttl5vw4BCg=
+github.com/UncleJunVIP/nextui-pak-shared-functions v1.10.0/go.mod h1:sXHrQmYySc2DVrGkhpoAoqDxb3lq3AS1HRbuHKCLnDE=
 github.com/activcoding/HTML-Table-to-JSON v0.0.4 h1:6xQvdHFFMHHW8ubDS+xUW/USUx25kZtC6nfVnY8tZQU=
 github.com/activcoding/HTML-Table-to-JSON v0.0.4/go.mod h1:xStjYiUrfnpo8937cHqbWh4hHGMSpT0sZ+qjvbCTLA0=
 github.com/andybalholm/cascadia v1.3.3 h1:AG2YHrzJIm4BZ19iwJ/DAua6Btl3IwJX+VI4kktS1LM=
@@ -16,6 +20,8 @@ github.com/davecgh/go-spew v1.1.0/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSs
 github.com/davecgh/go-spew v1.1.1 h1:vj9j/u1bqnvCEfJOwUhtlOARqs3+rkHYY13jYWTU97c=
 github.com/davecgh/go-spew v1.1.1/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
 github.com/google/go-cmp v0.6.0/go.mod h1:17dUlkBOakJ0+DkrSSNjCkIjxS6bF9zb3elmeNGIjoY=
+github.com/holoplot/go-evdev v0.0.0-20240306072622-217e18f17db1 h1:92OsBIf5KB1Tatx+uUGOhah73jyNUrt7DmfDRXXJ5Xo=
+github.com/holoplot/go-evdev v0.0.0-20240306072622-217e18f17db1/go.mod h1:iHAf8OIncO2gcQ8XOjS7CMJ2aPbX2Bs0wl5pZyanEqk=
 github.com/jmespath/go-jmespath v0.4.0 h1:BEgLn5cpjn8UN1mAw4NjwDrS35OdebyEtFe+9YPoQUg=
 github.com/jmespath/go-jmespath v0.4.0/go.mod h1:T8mJZnbsbmF+m6zOOFylbeCJqk5+pHWvzYPziyZiYoo=
 github.com/jmespath/go-jmespath/internal/testify v1.5.1 h1:shLQSRRSCCPj3f2gpwzGwWFoC7ycTf1rcQZHOlsJ6N8=
