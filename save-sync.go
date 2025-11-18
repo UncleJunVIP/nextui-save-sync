@@ -3,6 +3,13 @@ package main
 import (
 	"crypto/sha256"
 	"fmt"
+	"io"
+	"log"
+	"os"
+	"path/filepath"
+	"strings"
+	"time"
+
 	_ "github.com/UncleJunVIP/certifiable"
 	gaba "github.com/UncleJunVIP/gabagool/pkg/gabagool"
 	"github.com/UncleJunVIP/nextui-pak-shared-functions/common"
@@ -11,14 +18,7 @@ import (
 	"github.com/aws/aws-sdk-go/aws/session"
 	"github.com/aws/aws-sdk-go/service/s3"
 	"github.com/aws/aws-sdk-go/service/s3/s3manager"
-	"go.uber.org/zap"
 	"gopkg.in/yaml.v3"
-	"io"
-	"log"
-	"os"
-	"path/filepath"
-	"strings"
-	"time"
 )
 
 var con config
@@ -247,11 +247,11 @@ func downloadSaves(config config) (int, error) {
 }
 
 func init() {
-	gaba.InitSDL(gaba.GabagoolOptions{
+	gaba.InitSDL(gaba.Options{
 		WindowTitle:    "Save Sync",
 		ShowBackground: true,
 	})
-	common.SetLogLevel("ERROR")
+	gaba.SetRawLogLevel("ERROR")
 
 	logger := common.GetLoggerInstance()
 
@@ -267,14 +267,14 @@ func init() {
 		gaba.ConfirmationMessage("Error Loading Configuration!\nCheck logs for more info.", []gaba.FooterHelpItem{
 			{ButtonName: "B", HelpText: "Quit"},
 		}, gaba.MessageOptions{})
-		logger.Fatal("Error loading configuration!", zap.Error(err))
+		logger.Error("Error loading configuration!", "error", err)
+		os.Exit(1)
 	}
 
-	common.SetLogLevel(con.LogLevel)
+	gaba.SetRawLogLevel(con.LogLevel)
 }
 
 func main() {
-	defer common.CloseLogger()
 	defer gaba.CloseSDL()
 
 	common.GetLoggerInstance()
@@ -361,7 +361,7 @@ func main() {
 				{ButtonName: "B", HelpText: "Cancel"},
 				{ButtonName: "X", HelpText: "I Understand, Proceed"},
 			}, gaba.MessageOptions{
-				ConfirmButton: gaba.ButtonX,
+				ConfirmButton: gaba.InternalButtonX,
 			})
 
 			if confirm.IsNone() {
