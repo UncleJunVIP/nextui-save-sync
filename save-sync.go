@@ -12,6 +12,7 @@ import (
 
 	_ "github.com/UncleJunVIP/certifiable"
 	gaba "github.com/UncleJunVIP/gabagool/pkg/gabagool"
+	"github.com/UncleJunVIP/gabagool/pkg/gabagool/constants"
 	"github.com/UncleJunVIP/nextui-pak-shared-functions/common"
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/aws/credentials"
@@ -247,9 +248,10 @@ func downloadSaves(config config) (int, error) {
 }
 
 func init() {
-	gaba.InitSDL(gaba.Options{
+	gaba.Init(gaba.Options{
 		WindowTitle:    "Save Sync",
 		ShowBackground: true,
+		LogFilename:    "save_sync.log",
 	})
 	gaba.SetRawLogLevel("ERROR")
 
@@ -275,7 +277,7 @@ func init() {
 }
 
 func main() {
-	defer gaba.CloseSDL()
+	defer gaba.Close()
 
 	common.GetLoggerInstance()
 
@@ -361,7 +363,7 @@ func main() {
 				{ButtonName: "B", HelpText: "Cancel"},
 				{ButtonName: "X", HelpText: "I Understand, Proceed"},
 			}, gaba.MessageOptions{
-				ConfirmButton: gaba.InternalButtonX,
+				ConfirmButton: constants.VirtualButtonX,
 			})
 
 			if confirm.IsNone() {

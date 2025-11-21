@@ -8,3 +8,4 @@ config-dev.yml
 /resources/fonts/
 /build/*
 /certs/certificates.crt
+/.env
